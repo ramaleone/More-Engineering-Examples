@@ -38,6 +38,10 @@ bool isBalanced(const std::string &text){
       break;
 
     }
+    
+    if(unmatched.size() !=0){
+     return false; 
+    }
   }
   
   return true;
